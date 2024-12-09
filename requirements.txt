@@ -1,0 +1,13 @@
+json
+jupyter
+langchain==0.2.15
+langchain-community==0.2.15
+langchain-core==0.2.37
+langchain-openai==0.1.20
+langchain-text-splitters==0.2.2
+langsmith==0.1.147
+os
+pandas
+py2neo
+typing
+zhipuai
