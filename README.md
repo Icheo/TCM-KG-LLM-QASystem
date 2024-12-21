@@ -34,7 +34,7 @@ Modify the following parameters to your own path and neo4j parameters.
 df = pd.read_csv("csv_path") # Path to CSV file for creating knowledge graph
 g = Graph('neo4j_url', auth=('neo4j', 'password'), name='neo4j')
 ```
-### 4. Question answering
+### 4. Question answering in jupyter notebook
 Modify the following parameters to your own API key and neo4j parameters.
 ```
 os.environ["OPENAI_API_KEY"] = "openai_api_key"
@@ -42,4 +42,9 @@ openai.api_base = "base_url"
 os.environ["NEO4J_URI"] = "neo4j_url"
 os.environ["NEO4J_USERNAME"] = "neo4j"
 os.environ["NEO4J_PASSWORD"] = "password"
+```
+### 5. Question answering in gradio app
+```
+$ cd app
+$ python tcm_chatbot.py
 ```
